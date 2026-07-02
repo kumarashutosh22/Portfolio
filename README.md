@@ -1,16 +1,21 @@
-# React + Vite
+# Portfolio: Kumar Ashutosh
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Senior Data Scientist | AI & GenAI Enthusiast
 
-Currently, two official plugins are available:
+This repository contains the source code for my professional portfolio, highlighting my transition from mechanical engineering (robotics) to leading data science and Generative AI initiatives.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Architecture Constraints
+- **Framework**: React + Vite (Optimized for speed and minimal bloat)
+- **Styling**: Vanilla CSS (Custom glassmorphism UI, CSS-animated SVG data pipelines)
+- **Static Analysis**: ESLint + Prettier
 
-## React Compiler
+## Version 1.0 (Initial Scaffold)
+- Scaffolded foundational Vite + React application.
+- Integrated complete professional history from LinkedIn (Chubb, Mu Sigma, Annalect, Unacademy, The Sparks Foundation).
+- Engineered a custom, animated SVG data pipeline architecture diagram demonstrating end-to-end data flow (Sources -> ML Pipeline -> Forecasting/GenAI).
+- Implemented comprehensive sections for Experience, Education, Selected Projects (Robocon, WelkinSAT), Honors, and Certifications.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Local Development
+1. Install dependencies: `npm install`
+2. Start development server: `npm run dev`
+3. Build for production: `npm run build`
