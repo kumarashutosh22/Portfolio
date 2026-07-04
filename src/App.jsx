@@ -1,5 +1,6 @@
 import React from 'react';
 import PipelineAnimation from './PipelineAnimation';
+import DataArchitecture from './DataArchitecture';
 import { 
   Briefcase, 
   Code, 
@@ -158,7 +159,10 @@ function App() {
           {/* Skills / Tech Stack Section */}
           <section id="skills" style={{ padding: '4rem 0' }}>
             <h2 className="section-title"><Layers className="section-icon" /> Tech Stack</h2>
-            <div className="grid-2">
+            
+            <DataArchitecture />
+
+            <div className="grid-2" style={{ marginTop: '3rem' }}>
               <div className="glass-card">
                 <h3 style={{ color: 'var(--accent-cyan)', marginBottom: '1rem' }}>Core Machine Learning</h3>
                 <div className="skills-tags">
